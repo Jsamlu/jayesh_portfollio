@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
         <hr className='mx-auto w-[90%] outline-none bg-black'/>
-        <p className='text-sm font-extralight text-center'>©2025</p>
+        <i className='text-sm font-extralight flex justify-center'>©2025</i>
     </div>
   )
 }
