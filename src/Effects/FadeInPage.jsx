@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 export default function FadeInPage({ children }) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 0}}
-      animate={{ opacity: 1, y: 0 }}
+      initial={{ backgroundColor: "#000", opacity: 0 }}
+      animate={{ backgroundColor: "transparent", opacity: 1 }}
       transition={{ duration: 1, ease: "easeOut" }}
       className="min-h-screen"
     >
