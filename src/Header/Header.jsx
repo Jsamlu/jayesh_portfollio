@@ -2,6 +2,7 @@ import { Link } from "react-router";
 
 function Header() {
   const navlinks = [
+    { path: "/", label: "Home" },
     { path: "/aboutme", label: "About me" },
     { path: "/projects", label: "Projects" },
     { path: "/resume", label: "Resume" },
@@ -13,12 +14,12 @@ function Header() {
         {/* <Link to="/" className='text-5xl'>JS</Link> */}
         <Link
           to={"/"}
-          className="text-5xl outline-1 outline-gray-500 overflow-hidden block transition-all duration-300"
+          className="text-5xl outline-1 overflow-hidden block transition-all duration-300"
         >
-          <span className="font-sans font-extrabold bg-[#030303] text-gray-300 p-2">
-            J
+          <span className="font-sans font-extrabold  text-gray-300 p-2">
+            
           </span>
-          <span className="font-extrabold bg-gray-300 text-black p-2">S</span>
+          <span className="font-extrabold text-black p-2"></span>
         </Link>
       </div>
 

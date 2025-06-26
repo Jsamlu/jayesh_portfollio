@@ -2,10 +2,12 @@ import React from 'react'
 import FadeInPage from "../Effects/FadeInPage";
 
 function Resume() {
-  return (
-    <FadeInPage>    
-    <div>Resume</div>
-    </FadeInPage>
+  return (    
+    <div className=''>
+      <div>
+        <a className='block' href='/resume/jayesh_resume.pdf' download=''>My CV</a>
+      </div>
+    </div>
   )
 }
 

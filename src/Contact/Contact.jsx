@@ -3,9 +3,9 @@ import FadeInPage from "../Effects/FadeInPage";
 
 function Contact() {
   return (
-    <FadeInPage>
+    <>
     <div>Contact</div>
-    </FadeInPage>
+    </>
   )
 }
 
