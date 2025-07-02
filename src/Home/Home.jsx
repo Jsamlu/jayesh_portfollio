@@ -6,7 +6,7 @@ import FadeInPage from "../Effects/FadeInPage";
 function Home() {
   return (
     <>
-    <div className="md:px-[100px] min-h-screen bg-[#030303]">
+    <div className="md:px-[100px] min-w-screen min-h-screen bg-[#030303]">
       <div>
         <LandingPage />
       </div>

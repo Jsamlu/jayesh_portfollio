@@ -24,8 +24,8 @@ function Header() {
       </div>
 
     {/* <p className="text-7xl text-white">hey brother</p> */}
-
-      <div className="flex gap-x-5 font-sans">
+      <div className="sm:hidden text-xl text-red-500"> <p>this is the navbar</p></div>
+      <div className="hidden sm:flex gap-x-5 font-sans ">
         {navlinks.map((item, index) => {
           return(
             <Link key={index} to={item.path} className="text-gray-400 hover:text-gray-50 text-sm hover transition-all duration-200  ">
