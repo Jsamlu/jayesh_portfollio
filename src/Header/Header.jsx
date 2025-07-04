@@ -9,7 +9,7 @@ function Header() {
     { path: "/contact", label: "Contact" }
   ];
   return (
-    <div className="flex justify-between items-center px-15 py-5 bg-[#030303]">
+    <div className="flex justify-end md:justify-between items-center px-5 sm:px-15 py-1 sm:py-5 bg-[#030303]"> 
       <div id="logo">
         {/* <Link to="/" className='text-5xl'>JS</Link> */}
         <Link
