@@ -11,7 +11,7 @@ const CLinks = () => {
   return (
     <div className="max-w-[80%] mx-auto py-5">
       <div className="flex gap-x-5 justify-center items-center">
-        <Link className="links ">
+        <Link className="links " to={"/projects"}>
           <FaLinkedinIn />
         </Link>
         <Link className="links">
