@@ -2,7 +2,7 @@
 
 function LandingPage() {
   return (
-    <div className="px-10 h-screen flex-col items-center pt-[200px] sm:py-10 text-left ">
+    <div className="px-10 py-10 pt-[165px] sm:py-10 text-left ">
       <p className="text-[7.5pt] sm:text-[14pt] text-gray-500 leading-tight font-mono ort">
         <i>Hey, My name is</i>{" "}
       </p>
