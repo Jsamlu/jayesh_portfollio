@@ -12,3 +12,8 @@
         font-family: "Slabo", serif;
     }
 }
+
+
+.links{
+    @apply text-white text-sm md:text-3xl
+}

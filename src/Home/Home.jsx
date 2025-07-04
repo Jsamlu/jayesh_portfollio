@@ -1,6 +1,6 @@
 
 import LandingPage from './LandingPage'
-import FadeInPage from "../Effects/FadeInPage";
+import CLinks from '../CLinks/CLinks';
 
 
 function Home() {
@@ -9,6 +9,7 @@ function Home() {
     <div className="md:px-[100px] min-w-screen min-h-screen bg-[#030303]">
       <div>
         <LandingPage />
+        <CLinks/>
       </div>
     </div>
     </>

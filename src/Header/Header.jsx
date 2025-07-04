@@ -1,4 +1,7 @@
 import { Link } from "react-router";
+import { FaBars } from "react-icons/fa";
+
+
 
 function Header() {
   const navlinks = [
@@ -24,11 +27,11 @@ function Header() {
       </div>
 
     {/* <p className="text-7xl text-white">hey brother</p> */}
-      <div className="sm:hidden text-xl text-red-500"> <p>this is the navbar</p></div>
+      <div className="sm:hidden text-xl text-gray-500"> <button><FaBars /></button></div>
       <div className="hidden sm:flex gap-x-5 font-sans ">
         {navlinks.map((item, index) => {
           return(
-            <Link key={index} to={item.path} className="text-gray-400 hover:text-gray-50 text-sm hover transition-all duration-200  ">
+            <Link key={index} to={item.path} className="text-gray-400 hover:text-gray-50 text-sm font-semibold transition-all duration-200  ">
             {item.label}
           </Link>
           );
