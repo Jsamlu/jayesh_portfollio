@@ -14,7 +14,7 @@ function Projects() {
           {/* project display */}
             {ProjList.map((item, index)=>{
               return(
-                <div key={index} className="min-h-[150px] sm:min-h-[350px] bg-gray-600">
+                <div key={index} className="min-h-[200px] sm:min-h-[350px] bg-gray-600" onClick={""}>
                     
                 </div>
               );
