@@ -5,7 +5,7 @@ import { GrClose } from "react-icons/gr";
 
 function Header() {
   const navlinks = [
-    { path: "#land", label: "Home" },
+    { path: "/", label: "Home" },
     { path: "#aboutme", label: "About me" },
     { path: "#projects", label: "Projects" },
     { path: "#resume", label: "Resume" },

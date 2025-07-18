@@ -1,7 +1,8 @@
 import LandingPage from "./LandingPage";
 import Projects from "../Projects/Projects";
-import Resume from "../Resume/Resume";
+// import Resume from "../Resume/Resume";
 import AboutMe from "../AboutMe/AboutMe";
+
 
 function Home() {
   return (
@@ -25,7 +26,7 @@ function Home() {
         <div id="projects">
           <Projects />
         </div>
-        <div id="research">{/* research */}</div>
+        <div id="research"></div>
         <div id="contacts">{/* Contacts */}</div>
       </div>
     </>
