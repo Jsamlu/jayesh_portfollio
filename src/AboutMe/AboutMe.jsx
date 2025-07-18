@@ -1,5 +1,3 @@
-import React from 'react'
-import FadeInPage from '../Effects/FadeInPage'
 
 function AboutMe() {
   return (

@@ -2,7 +2,7 @@ import ProjList from "./ProjList";
 
 function Projects() {
   return (
-    <div className="min-w-screen min-h-screen sm:min-h-[70vh] px-5 sm:px-20 bg-[#030303] py-2">
+    <div className=" min-h-screen sm:min-h-[70vh] px-5 sm:px-20 bg-[#030303] py-2">
       <div>
         {/* heading  */}
         <h1 className=" text-gray-400 font-sans font-extralight text-2xl text-center underline decoration-1 underline-offset-[10px]">

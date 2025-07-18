@@ -1,4 +1,4 @@
-import React from "react";
+
 import { LuInstagram } from "react-icons/lu";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -9,20 +9,20 @@ Link;
 
 const CLinks = () => {
   return (
-    <div className="max-w-[80%] mx-auto py-5">
-      <div className="flex gap-x-5 justify-center items-center">
-        <Link className="links " to={"/projects"}>
+    <div className=" sm:py-17">
+      <div className="flex sm:grid gap-x-5 gap-y-5 justify-center items-center">
+        <a className="links" href="#">
           <FaLinkedinIn />
-        </Link>
-        <Link className="links">
+        </a>
+        <a className="links" href="#">
           <FaGithub />
-        </Link>
-        <Link className="links">
+        </a>
+        <a className="links" href="#">
           <LuInstagram />
-        </Link>
-        <Link className="links">
+        </a>
+        <a className="links" href="#">
           <FaXTwitter />
-        </Link>
+        </a>
       </div>
     </div>
   );

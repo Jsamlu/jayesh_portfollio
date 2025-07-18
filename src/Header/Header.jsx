@@ -1,15 +1,15 @@
-import { Link, Links } from "react-router";
+
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
 import { GrClose } from "react-icons/gr";
 
 function Header() {
   const navlinks = [
-    { path: "/", label: "Home" },
-    { path: "/aboutme", label: "About me" },
-    { path: "/projects", label: "Projects" },
-    { path: "/resume", label: "Resume" },
-    { path: "/contact", label: "Contact" },
+    { path: "#land", label: "Home" },
+    { path: "#aboutme", label: "About me" },
+    { path: "#projects", label: "Projects" },
+    { path: "#resume", label: "Resume" },
+    { path: "#contact", label: "Contact" },
   ];
 
   const [toggle, setToggle] = useState(true);
@@ -22,13 +22,13 @@ function Header() {
     <div className="flex justify-end md:justify-between items-center px-5 sm:px-15 py-1 sm:py-5 bg-[#030303]">
       <div id="logo">
         {/* <Link to="/" className='text-5xl'>JS</Link> */}
-        <Link
-          to={"/"}
+        <a
+          href={"/"}
           className="text-5xl outline-1 overflow-hidden block transition-all duration-300"
         >
           <span className="font-sans font-extrabold  text-gray-300 p-2"></span>
           <span className="font-extrabold text-black p-2"></span>
-        </Link>
+        </a>
       </div>
 
       {/* <p className="text-7xl text-white">hey brother</p> */}
@@ -44,7 +44,7 @@ function Header() {
           {navlinks.map((item, index) => {
             return(
               <div key={index} className="h-full">
-                <Link to={item.path} onClick={togglableContainer} className="focus:text-gray-300">{item.label}</Link>
+                <a href={item.path} onClick={togglableContainer} className="focus:text-gray-300">{item.label}</a>
               </div>
             );
           })}
@@ -65,13 +65,13 @@ function Header() {
       <div className="hidden sm:flex gap-x-5 font-sans ">
         {navlinks.map((item, index) => {
           return (
-            <Link
+            <a
               key={index}
-              to={item.path}
+              href={item.path}
               className="text-gray-400 hover:text-gray-50 text-sm font-semibold transition-all duration-200  "
             >
               {item.label}
-            </Link>
+            </a>
           );
         })}
       </div>
