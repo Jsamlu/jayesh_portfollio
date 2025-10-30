@@ -5,7 +5,7 @@ import { GrClose } from "react-icons/gr";
 
 function Header() {
   const navlinks = [
-    { path: "/", label: "Home" },
+    { path: "#home", label: "Home" },
     { path: "#aboutme", label: "About me" },
     { path: "#projects", label: "Projects" },
     { path: "#resume", label: "Resume" },
@@ -19,7 +19,7 @@ function Header() {
   };
 
   return (
-    <div className="flex justify-end md:justify-between items-center px-5 sm:px-15 py-1 sm:py-5 bg-[#030303]">
+    <div className="flex w-full items-center px-5 sm:px-15 py-1 sm:py-2 bg-[#030303] fixed top-0">
       <div id="logo">
         {/* <Link to="/" className='text-5xl'>JS</Link> */}
         <a

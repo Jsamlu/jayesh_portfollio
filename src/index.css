@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
 @import "tailwindcss";
 
+html{
+    scroll-behavior: smooth;
+}
 
 .ort{
     text-orientation: mixed;
 }
-
 
 @layer base{
     html{
@@ -16,4 +18,10 @@
 
 .links{
     @apply text-white text-sm md:text-3xl
+}
+
+
+.clink_items{
+    @apply hover:scale-125
+    transition-all duration-200
 }

@@ -11,16 +11,16 @@ const CLinks = () => {
   return (
     <div className=" sm:py-17">
       <div className="flex sm:grid gap-x-5 gap-y-5 justify-center items-center">
-        <a className="links" href="#">
+        <a className="links clink_items " href="#">
           <FaLinkedinIn />
         </a>
-        <a className="links" href="#">
+        <a className="links clink_items" href="#">
           <FaGithub />
         </a>
-        <a className="links" href="#">
+        <a className="links clink_items" href="#">
           <LuInstagram />
         </a>
-        <a className="links" href="#">
+        <a className="links clink_items" href="#">
           <FaXTwitter />
         </a>
       </div>
